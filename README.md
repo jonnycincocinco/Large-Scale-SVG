@@ -1,8 +1,9 @@
-# Large Scale Animated SVG
+# Large Scale Animated Canvas + SVG line art
 
 ### What's under the hood
 
-* SVG is created with Ai->Canvas Export Plug-In Version 1.0 (Mac)
+* Canvas is created with Ai->Canvas Export Plug-In Version 1.0 (Mac)
+* SVGs are simply AI exports
 * Animations created with jQuery
 
 
