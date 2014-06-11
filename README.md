@@ -3,7 +3,7 @@
 ### What's under the hood
 
 * Canvas is created with Ai->Canvas Export Plug-In Version 1.0 (Mac)
-* SVGs are simply AI exports
+* SVGs are simply Ai exports
 * Animations created with jQuery
 
 
