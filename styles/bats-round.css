@@ -3,9 +3,9 @@ path {
 	fill-rule:evenodd;
 	clip-rule:evenodd;
 	fill:none;
-	stroke:#000000;
+	stroke:#000;
 	stroke-width:2;
 	stroke-linecap:round;
-	stroke-linejoin:round;
+	stroke-linejoin:stroke-miterlimit;
 	stroke-miterlimit:10;
 }
