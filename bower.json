@@ -1,8 +1,12 @@
 {
   "name": "large-scale svg",
   "dependencies": {
-    "snap.svg": "~0.4.1",
+    "angular-dragula": "~1.1.6",
+    "bootstrap": "~3.3.4",
     "react": "~0.13.3",
-    "bootstrap": "~3.3.4"
+    "snap.svg": "~0.4.1"
+  },
+  "devDependencies": {
+    "d3": "~3.5.6"
   }
 }

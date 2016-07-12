@@ -1,6 +1,7 @@
- 
 (function ($) {
 
-	window.scrollTo(7000,7000);
+  $( document ).ready(function() {
+  //  $('body').scrollTo(4000);
+  });
 
 })(jQuery);
