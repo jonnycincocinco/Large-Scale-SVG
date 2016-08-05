@@ -1,113 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Area Chart (Radial)</title>
-    <script type="text/javascript" src="../libs/d3.js"></script>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <style type="text/css">
-
-    </style>
-  </head>
-  <body>
 
 
-    <script type="text/javascript">
+<!doctype html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title> CUBA</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+</head>
+<body>
 
 
+  <div class="page page-home" ng-cloak>
 
-    </script>
+      <div class="page-home--hero">
+        <div class="page-home--cuba">
+          <object class="cuba" type="image/svg+xml" data="cuba-woman.svg">Your browser does not support SVGs</object>
+        </div>
+      </div>
 
-    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In  -->
-    <svg version="1.1"
-    	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-    	 x="0px" y="0px" width="1216.6px" height="2347.9px" viewBox="0 0 216.6 347.9" style="enable-background:new 0 0 216.6 347.9;"
-    	 xml:space="preserve">
-    <style type="text/css">
-    @-webkit-keyframes eye-bulge {
-      0%   { stroke-width: 2px; }
-      50%   { stroke-width: 17px; }
-      100%   { stroke-width: 2px; }
-    }
+  </div>
 
-    	.st0{fill:#C25815;}
-    	.st1{fill:none;stroke:#FF9C8C;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-    	.st2{fill:#811C25;}
-    	.st3{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
-      -webkit-animation: eye-bulge 5s infinite;}
-    	.st4{fill:#EB6455;}
-    	.st5{fill:#FF9C8C;}
-    	.st6{fill:#FFFFFF;}
-    </style>
-    <defs>
-    </defs>
-    <g>
-    	<g>
-    		<path class="st0" d="M92.8,279.2h-20c0,9.1-7.4,16.5-16.5,16.5H43.6c0,21.8,23.5,46.6,56.9,46.6s58.4-24.3,58.4-46.6h-18.1
-    			c-9.1,0-16.5-7.4-16.5-16.5h-15.9H92.8z"/>
-    		<path class="st0" d="M188.9,94.5c-5.3-7.4-13.8-10.3-22.9-10.3h-58.4c-10,0-23,31-28,39.6l-23.7,15c-3.8,6.5-16.5,19-14.6,26.2
-    			l28.2,72.8c2.5,7.4,3.3,15.2,3.3,22.9v18.5c0,14.2,11.5,25.8,25.8,25.8c14.2,0,25.8-11.5,25.8-25.8c0-9.4,5.5-15.3,16-18.9
-    			c18-6.2,32.3-20.9,36.7-37.2l25.8-110.7L188.9,94.5z"/>
-    		<g>
-    			<path d="M47.2,107.1c11-15.4,28.7-24.5,47.5-24.5c29.2,0,70.5,0,80.7,0c16,0,26.9,11.2,27.5,25.6c0.8,16.6-12.9,27.9-27.5,27.9
-    				c-8.8-0.1-40.4-0.2-58-0.2s-13.2,20.4-34.9,20.4h-4.7c-5.4,0-9.8,4.4-9.8,9.8v4.4c0,6,2.4,11.7,6.6,15.9L78,190
-    				c3.2,3.2,4.5,8,3.2,12.4l-2.6,9c-2.4,8.2-7.3,13.9-14,13.9l-24.4-63c-2.6-6.7-4-13.7-4-20.6C36.3,129.9,39.9,117.3,47.2,107.1
-    				L47.2,107.1z"/>
-    		</g>
-    		<path class="st1" d="M81.5,181.5c13.9,4.7,23.9,17.8,23.9,33.3c0,19.4-15.7,35.1-35.1,35.1s-35.1-15.7-35.1-35.1
-    			c0-17,12.1-31.2,28.1-34.4"/>
-    	</g>
-    	<g>
-    		<path class="st2" d="M157.2,213L157.2,213c0-3.2-2.1-6.1-5.2-6.7c-4.2-0.8-7.8,2.4-7.8,6.4l0,0c0-4-3.7-7.2-7.8-6.4
-    			c-3.1,0.6-5.2,3.5-5.2,6.7v0c0,1.5-1.2,2.7-2.7,2.7h-2.8l2.4,4.2c2.2,3.9,5.8,6.9,10.1,8.3h0c3.9,1.3,8,1.3,11.9,0h0
-    			c4.3-1.4,7.9-4.4,10.1-8.3l2.4-4.2h-2.8C158.4,215.6,157.2,214.4,157.2,213z"/>
-    	</g>
-    	<g>
-    		<g>
-    			<path class="st3" d="M157.7,184.2c0-4.7,3.8-8.5,8.5-8.5s8.5,3.8,8.5,8.5"/>
-    			<path class="st3" d="M113.7,184.2c0-4.7,3.8-8.5,8.5-8.5c4.7,0,8.5,3.8,8.5,8.5"/>
-    		</g>
-    	</g>
-    </g>
-    <path class="st4" d="M205.9,77.1l-89-67C83.7-14.8,36.3,8.9,36.3,50.4v91.2l0,0C52.5,122.8,76.1,112,101,112h90.7L205.9,77.1z"/>
-    <path class="st5" d="M97.4,5.9L97.4,5.9c-19.4,4-25,29-9.1,40.9L156.3,98h25.1L193.7,68l-76.8-57.8C111.3,6,104.2,4.5,97.4,5.9z"/>
-    <g>
-    	<path class="st2" d="M216.6,127.2V67.3c0-6.7-7.2-10.9-13-7.6l-52.4,29.9c-5.9,3.3-5.9,11.8,0,15.2l52.4,29.9
-    		C209.4,138.1,216.6,133.9,216.6,127.2z"/>
-    	<path class="st2" d="M110.7,67.3v59.8c0,6.7,7.2,10.9,13,7.6l52.4-29.9c5.9-3.3,5.9-11.8,0-15.2l-52.4-29.9
-    		C118,56.5,110.7,60.7,110.7,67.3z"/>
-    </g>
-    <path class="st4" d="M151.1,104.8l12.6,7.2l12.6-7.2c5.9-3.3,5.9-11.8,0-15.2l-12.6-7.2l-12.6,7.2C145.2,93,145.2,101.5,151.1,104.8
-    	z"/>
-    <g>
-    	<path class="st4" d="M168.3,284.7c0,11.6-3.7,21.1-8.2,21.1c-1.7,0-8.2-5.5-8.2-5.5s0-8.2,0-15.6c0-11.6,3.7-21.1,8.2-21.1
-    		C164.6,263.6,168.3,273,168.3,284.7z"/>
-    	<ellipse transform="matrix(0.5 0.866 -0.866 0.5 344.8279 -6.8564)" class="st4" cx="178.4" cy="295.2" rx="8.2" ry="21.1"/>
-    	<ellipse transform="matrix(-0.5 0.866 -0.866 -0.5 541.4385 319.9702)" class="st4" cx="178.4" cy="316.3" rx="8.2" ry="21.1"/>
-    	<ellipse class="st4" cx="160.1" cy="326.8" rx="8.2" ry="21.1"/>
-    	<ellipse transform="matrix(0.866 0.5 -0.5 0.866 166.6029 -46.8018)" class="st6" cx="170.6" cy="287.5" rx="8.2" ry="21.1"/>
-    	<ellipse class="st6" cx="181.2" cy="305.7" rx="21.1" ry="8.2"/>
-    	<g>
-    		<ellipse transform="matrix(-0.866 -0.5 0.5 -0.866 117.0656 679.3716)" class="st6" cx="149.6" cy="324" rx="8.2" ry="21.1"/>
-    		<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -123.7061 113.2913)" class="st6" cx="149.6" cy="287.5" rx="8.2" ry="21.1"/>
-    	</g>
-    	<ellipse transform="matrix(-0.866 0.5 -0.5 -0.866 480.4097 519.2786)" class="st6" cx="170.6" cy="324" rx="8.2" ry="21.1"/>
-    </g>
-    <g>
-    	<path class="st4" d="M34,284.7c0,11.6,3.7,21.1,8.2,21.1c1.7,0,8.2-6.3,8.2-6.3s0-7.4,0-14.8c0-11.6-3.7-21.1-8.2-21.1
-    		S34,273,34,284.7z"/>
-    	<ellipse transform="matrix(-0.5 0.866 -0.866 -0.5 291.5141 422.0973)" class="st4" cx="23.9" cy="295.2" rx="8.2" ry="21.1"/>
-    	<ellipse transform="matrix(0.5 0.866 -0.866 0.5 285.8648 137.4375)" class="st4" cx="23.9" cy="316.3" rx="8.2" ry="21.1"/>
-    	<ellipse class="st4" cx="42.2" cy="326.8" rx="8.2" ry="21.1"/>
-    	<ellipse transform="matrix(-0.866 0.5 -0.5 -0.866 202.7555 520.6407)" class="st6" cx="31.6" cy="287.5" rx="8.2" ry="21.1"/>
-    	<ellipse class="st6" cx="21.1" cy="305.7" rx="21.1" ry="8.2"/>
-    	<g>
-    		<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -154.9394 69.7623)" class="st6" cx="52.7" cy="324" rx="8.2" ry="21.1"/>
-    		<ellipse transform="matrix(-0.866 -0.5 0.5 -0.866 -45.3867 562.8075)" class="st6" cx="52.7" cy="287.5" rx="8.2" ry="21.1"/>
-    	</g>
-    	<ellipse transform="matrix(0.866 0.5 -0.5 0.866 166.2379 27.5955)" class="st6" cx="31.6" cy="324" rx="8.2" ry="21.1"/>
-    </g>
-    </svg>
+<script>
 
+function scale() {
+  var tl4 = new TimelineMax({repeat:-1});
+  tl4.to('.cuba', 10, {width: '0', ease:Linear.easeNone});
+}
 
-  </body>
+scale();
+
+</script>
+
+</body>
 </html>
